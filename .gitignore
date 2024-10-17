@@ -1,6 +1,10 @@
 
 ## R
 
+# Quarto render files
+/docs/*_files/
+/docs/*.html
+
 # History files
 .Rhistory
 .Rapp.history
