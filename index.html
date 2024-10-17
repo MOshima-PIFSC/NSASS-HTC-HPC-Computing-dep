@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Norah Jones">
-<meta name="dcterms.date" content="2024-10-17">
+<meta name="author" content="Nicholas Ducharme-Barth">
+<meta name="author" content="Megumi Oshima">
 
-<title>book</title>
+<title>HTC/HPC for Stock Assessments</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,13 +26,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./intro.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -73,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -94,10 +92,13 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">book</a> 
+      <a href="./">HTC/HPC for Stock Assessments</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://moshima-pifsc.github.io/NSASS-HTC-HPC-Computing-dep/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-git"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -113,24 +114,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Preface</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -143,33 +126,42 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://moshima-pifsc.github.io/NSASS-HTC-HPC-Computing-dep/blob/main/index.qmd" class="toc-action"><i class="bi bi-git"></i>View source</a></li><li><a href="https://moshima-pifsc.github.io/NSASS-HTC-HPC-Computing-dep/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">book</h1>
+<h1 class="title">HTC/HPC for Stock Assessments</h1>
 </div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Nicholas Ducharme-Barth </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            NOAA Fisheries
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Megumi Oshima </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            NOAA Fisheries
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Norah Jones </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">October 17, 2024</p>
-    </div>
-  </div>
+      
   
     
   </div>
@@ -280,7 +272,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/moshima-pifsc\.github\.io\/NSASS-HTC-HPC-Computing-dep");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -608,16 +600,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./intro.html" class="pagination-link" aria-label="Introduction">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© CC-1.0</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://moshima-pifsc.github.io/NSASS-HTC-HPC-Computing-dep/blob/main/index.qmd" class="toc-action"><i class="bi bi-git"></i>View source</a></li><li><a href="https://moshima-pifsc.github.io/NSASS-HTC-HPC-Computing-dep/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
+  </div>
+</footer>
 
 
 
