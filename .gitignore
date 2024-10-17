@@ -2,8 +2,8 @@
 ## R
 
 # Quarto render files
-/docs/*_files/
-/docs/*.html
+# /docs/*_files/
+# /docs/*.html
 
 # History files
 .Rhistory
@@ -106,3 +106,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Quarto publishing artifacts
+.DS_Store
+/.quarto/
+/_site/
+site_libs
